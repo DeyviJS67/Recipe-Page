@@ -1,0 +1,24 @@
+@media (max-width:425px){
+    body{
+        font-size: 14px;
+    }
+    .recipe{
+            width: 100%;
+            margin: 0;
+            border-radius: none;
+            -webkit-border-radius: none;
+            -moz-border-radius: none;
+            -ms-border-radius: none;
+            -o-border-radius: none;
+    }
+    .wrapper{
+        margin: 0;
+        margin-bottom: 2em;
+    }
+    .omelette{
+        overflow: visible;
+    }
+    .description, .preparation, .ingredients, .instructions, .nutrition{
+        margin: 0 1.5em;
+    }
+    }

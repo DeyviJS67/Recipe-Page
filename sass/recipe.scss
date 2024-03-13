@@ -1,0 +1,125 @@
+
+.recipe{
+    width:675px;
+    background-color: $white;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    margin: 5em 0;
+}
+.wrapper{
+    margin: 2em 1.2em;
+}
+.omelette{
+    position: relative;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    overflow: hidden;
+    &__img{ 
+        display: block;
+        width: 100%;
+}
+}
+.omelette::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: $blue;
+    opacity: .2;
+}
+.description{
+    &__h1{
+        color: $dark-charcoal;
+        font-family: YoungSerif;
+        font-weight: 400;
+        margin-top: 1em;
+    }
+}
+.paragraph{
+    line-height: 1.4;
+    color: $nutmeg;
+    font-family: Outfit;
+    font-weight: 400;
+}
+.title__h3{
+    font-family: YoungSerif;
+    color:$nutmeg ;
+    font-weight: 400;
+    margin-bottom: .5em;
+}
+.preparation{
+    font-family: Outfit;
+    background-color: $rose-white;
+    padding: 1em;
+    border-radius: .5em;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    -ms-border-radius: .5em;
+    -o-border-radius: .5em;
+    margin-top: 1em;
+    &__h4{
+        color:$dark-raspberry ;
+        font-weight: 700;
+    }
+    &__list{
+        color: $nutmeg;
+        font-weight: 600;
+        margin-left: 1.4em;
+        margin-top: .2em;
+    }
+}
+.ingredients{
+    margin-top: 1em;
+    &__list{
+        margin-left: 1.4em;
+        margin-top: .2em;
+    }
+}
+.instructions{
+    &__list{
+        margin-left: 1.4em;
+        font-family: Outfit;
+        font-weight: 700;
+        color: $wenge-brown;
+        margin-top: .5em;
+    }
+    &__list span{
+        margin-left: .2em;
+    }
+    &__hr{
+        margin: 1em 0;
+    }
+}
+.nutrition{
+    display: grid;
+    gap: .5em;
+    &__paragraph{
+        margin-bottom: .7em;
+    }
+    &__row{
+        display: flex;
+        align-items: center;
+    }
+    &__left{
+        width: 45%;
+        margin-left: auto;
+    }
+    &__right{
+        width: 50%;
+        text-align: start;
+        font-family: Outfit;
+        color: $nutmeg;
+        font-weight: 700;
+    }
+}
+
+
+
